@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yard Sale</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="login grid place-items-center h-screen">
+        <div class="form-container grid grid-rows-login w-full max-w-sm px-4">
+          <figure class="logo w-36 justify-self-center mb-20 sm:hidden">
+            <img
+              src="../assets/images/logo_yard_sale.svg"
+              alt="Logo de la marca"
+            />
+          </figure>
+          <h1 class="title text-base text-center font-bold">
+            Create a new password
+          </h1>
+          <p class="subtitle mb-8 text-base text-color-pink text-center">
+            Enter a new password for your account
+          </p>
+          <form action="/" class="form flex flex-col">
+            <label for="password" class="label text-sm font-bold mb-1">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              placeholder="*********"
+              class="
+                input
+                h-9
+                px-2
+                pt-2
+                bg-gray-200
+                rounded-lg
+                border-0
+                outline-none
+                input-password
+              "
+            />
+            <label for="new-password" class="label text-sm font-bold mb-1">
+              Re-enter password
+            </label>
+            <input
+              type="password"
+              id="new-password"
+              placeholder="*********"
+              class="
+                input
+                h-9
+                px-2
+                pt-2
+                bg-gray-200
+                rounded-lg
+                border-0
+                outline-none
+                input-password
+              "
+            />
+            <input
+              type="submit"
+              value="Confirm"
+              class="
+                btn-primary
+                mt-10
+                h-16
+                rounded-lg
+                bg-color-green
+                text-lg
+                font-bold
+                text-color-white
+                login-btn
+              "
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
