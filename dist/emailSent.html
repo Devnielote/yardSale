@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yard Sale</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="login grid place-items-center h-screen">
+        <div
+          class="
+            form-container
+            grid grid-rows-login
+            justify-items-center
+            w-full
+            max-w-sm
+            px-4
+          "
+        >
+          <figure class="logo w-36 justify-self-center mb-20 sm:hidden">
+            <img
+              src="../assets/images/logo_yard_sale.svg"
+              alt="Logo de la marca"
+            />
+          </figure>
+          <h1 class="title text-base text-center font-bold">
+            Email has been sent
+          </h1>
+          <p class="subtitle mb-8 text-base text-color-pink text-center">
+            Please check your inbox for instructions on how to reset the
+            password
+          </p>
+          <figure class="email-img w-24 my-10">
+            <img
+              src="../assets/images/email.svg"
+              alt="Imagen de un sobre enviado"
+            />
+          </figure>
+          <form action="/" class="form flex flex-col w-full">
+            <input
+              type="submit"
+              value="Confirm"
+              class="
+                btn-primary
+                mt-10
+                h-16
+                rounded-lg
+                bg-color-green
+                text-lg
+                font-bold
+                text-color-white
+                login-btn
+              "
+            />
+          </form>
+          <p class="mt-10 text-sm text-center text-gray-500">
+            Didn't receive the email?
+            <a href="#" class="text-color-green">Resend</a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
