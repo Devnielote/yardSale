@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yard Sale</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div
+        class="login flex flex-col justify-center sm:h-screen create-account"
+      >
+        <div
+          class="
+            form-container
+            flex flex-col
+            w-full
+            max-w-sm
+            h-screen
+            px-4
+            py-3
+            sm:justify-center
+            form-container--newAccount
+            m-auto
+          "
+        >
+          <div class="create-account__title mb-10 font-bold">
+            <h2>My account</h2>
+          </div>
+          <form action="/" class="form flex flex-col w-full">
+            <label for="name" class="label text-sm font-bold mb-1">
+              Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Daniel Flowers"
+              class="
+                input
+                mb-6
+                h-9
+                px-3
+                pt-2
+                bg-gray-200
+                rounded-lg
+                border-0
+                outline-none
+                text-sm
+                input-password
+              "
+            />
+            <label for="email" class="label text-sm font-bold mb-1">
+              Email addres
+            </label>
+            <input
+              type="email"
+              id="email"
+              placeholder="youremail@example.com"
+              class="
+                input
+                mb-6
+                h-9
+                px-3
+                pt-2
+                bg-gray-200
+                rounded-lg
+                border-0
+                outline-none
+                input-password
+              "
+            />
+            <label for="password" class="label text-sm font-bold mb-1">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              placeholder="*********"
+              class="
+                input
+                mb-6
+                h-9
+                px-3
+                pt-2
+                bg-gray-200
+                rounded-lg
+                border-0
+                outline-none
+                input-password
+              "
+            />
+          </form>
+          <button
+            class="
+              btn-secondary
+              h-16
+              rounded-lg
+              border-2 border-color-green
+              bg-none
+              text-lg
+              font-bold
+              text-color-green
+              createAccount-btn
+              mt-auto
+              sm:mt-10
+            "
+          >
+            Edit
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

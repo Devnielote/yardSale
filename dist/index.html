@@ -8,6 +8,341 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <h1>Hola mundo</h1>
+    <main class="home px-4">
+      <section class="search flex flex-col mt-5">
+        <input
+          typa="text"
+          placeholder="Search product"
+          class="search-bar w-full h-10 rounded-lg bg-color-input"
+        />
+        <div class="categories mt-5 overflow-x-scroll">
+          <ul class="categories__list flex">
+            <li class="categorie px-4">
+              <a href="#">All</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Clothes</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Electronics</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Furniture</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Toys</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Travels</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Cars</a>
+            </li>
+            <li class="categorie px-4">
+              <a href="#">Camping</a>
+            </li>
+          </ul>
+        </div>
+        <div class="filter__container flex justify-center mt-5">
+          <label for="cars">Order:</label>
+
+          <select name="filter" id="filters">
+            <option value="recent">Most recent</option>
+            <option value="relevance">Most relevant</option>
+            <option value="cheapest">Cheapest</option>
+          </select>
+        </div>
+      </section>
+      <section
+        class="
+          articles__container
+          grid grid-cols-articles-grid
+          justify-center
+          gap-2
+          mt-5
+        "
+      >
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/bici.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article__img h-32">
+            <img
+              class="rounded-xl object-cover"
+              src="../assets/images/shelf.jpg"
+              alt=""
+            />
+          </figure>
+          <div class="article__info flex justify-between mt-3">
+            <div class="info__container">
+              <p class="article__price text-base">Precio</p>
+              <p class="article__name text-sm">Nombre del producto</p>
+            </div>
+            <div class="article__toCart">
+              <figure class="article__addToCart w-11">
+                <img src="../assets/images/bt_add_to_cart.svg" alt="" />
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
   </body>
 </html>

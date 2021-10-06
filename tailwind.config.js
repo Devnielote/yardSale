@@ -16,6 +16,9 @@ module.exports = {
       },
       gridTemplateRows: {
         'login':'auto fr auto'
+      },
+      gridTemplateColumns: {
+        "articles-grid": "repeat(auto-fill, 240px)",
       }
     },
   },
